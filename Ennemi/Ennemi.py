@@ -10,3 +10,7 @@ class Ennemi(ABC):
     @abstractmethod
     def attaquer(self):
         pass
+
+    @abstractmethod
+    def recevoir_degat(self):
+        pass
