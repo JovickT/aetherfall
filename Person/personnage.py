@@ -8,4 +8,4 @@ class Personnage:
         self.inventaire = Inventaire()
 
     def __str__(self):
-        return f"[{self.classe}] HP: {self.hp}, Mana: {self.mana}, Skill: {self.competence}"
+        return f"[{self.classe}] HP: {self.hp}, Mana: {self.mana}, Skill: {self.competence}, Inventaire: {self.inventaire}"
