@@ -30,5 +30,5 @@ class Game:
         
        
         if self.porte.debloque and isinstance(self.hero.zone_actuelle, ForetStrategy):
-            print("✨ Un portail s'ouvre vers le Donjon !")
+            print(" Un portail s'ouvre vers le Donjon !")
             self.hero.changer_zone(DonjonStrategy())
